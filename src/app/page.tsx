@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Shops from "@/components/Shops";
 import Ships from "@/components/Ships";
 import Places from "@/components/Places"
 import Culture from "@/components/Culture"
