@@ -12,15 +12,15 @@ const Shops = () =>  {
         <div className="grid w-full shadow-xl rounded-md items-center z-10 mt-4">
             <div className="grid grid-cols-8 grid rows-3 z-10">
                 <div className="w-full md:w-40"></div>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Δευτέρα</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Τρίτη</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Τετάρτη</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Πέμπτη</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Παρασκευή</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Σάββατο</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Κυριακή</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Δευτέρα</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Τρίτη</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Τετάρτη</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Πέμπτη</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Παρασκευή</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Σάββατο</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Κυριακή</p>
                 
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Ραφήνα-Μαρμάρι </p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Ραφήνα-Μαρμάρι </p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
@@ -29,7 +29,7 @@ const Shops = () =>  {
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
 
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Μαρμάρι-Ραφήνα </p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Μαρμάρι-Ραφήνα </p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
@@ -43,15 +43,15 @@ const Shops = () =>  {
         <div className="grid w-full shadow-xl items-center mt-4">
             <div className="grid grid-cols-8 grid rows-3">
                 <div className="w-full md:w-40"></div>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Δευτέρα</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Τρίτη</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Τετάρτη</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Πέμπτη</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Παρασκευή</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Σάββατο</p>
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Κυριακή</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Δευτέρα</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Τρίτη</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Τετάρτη</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Πέμπτη</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Παρασκευή</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Σάββατο</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Κυριακή</p>
                 
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Αγία Μαρίνα-Νέα Στύρα</p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Αγία Μαρίνα-Νέα Στύρα</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
@@ -60,7 +60,7 @@ const Shops = () =>  {
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
 
-                <p className="text-[8px] md:text-xs text-black outline outline-white p-2">Νέα Στύρα-Αγία Μαρίνα </p>
+                <p className="text-[7px] md:text-xs text-black outline outline-white p-1">Νέα Στύρα-Αγία Μαρίνα </p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>
                 <p className="text-[8px] md:text-xs outline outline-white p-2">9:00, 16:00</p>

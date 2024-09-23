@@ -9,6 +9,7 @@ interface Item {
   id: number;
   title: string;
   image: string;
+  image2: string;
   smallDescription: string;
   region: string;
   bigDescription: string;
@@ -81,15 +82,15 @@ export default async function MoreInfo({ params }: { params: { id: string } }) {
                   <Image
                     className="absolute rounded-sm inset-0 w-full h-full object-cover"
                     src={item.image}
-                    alt={item.title}
+                    alt={item.image2}
                     fill
                   />
                 </div>
                 <div className="animate-moveDownAnimation w-full relative" style={{ paddingBottom: "65%" }}>
                   <Image
                     className="absolute rounded-sm inset-0 w-full h-full object-cover"
-                    src={item.image}
-                    alt={item.title}
+                    src={item.image2}
+                    alt={item.image}
                     fill
                   />
                 </div>

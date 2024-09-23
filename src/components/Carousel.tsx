@@ -40,7 +40,7 @@ export default function EmblaCarousel() {
       </div>
     </div>
     <Image className="animate-moveDownAnimation  pointer-events-none absolute -mt-10 md:mt-0 top-1/4 left-4 w-3/5 md:top-48 md:left-12 md:w-1/4 z-10" layout="intrinsic" src={textImage1} alt=""/>
-    <Image className="animate-moveDownAnimation  pointer-events-none absolute -mt-10 md:mt-0 top-3/4 right-4 w-3/5 md:top-3/4 md:right-12 md:w-1/4" layout="intrinsic" src={textImage2}  alt=""/>
+    <Image className="animate-moveDownAnimation  pointer-events-none absolute  top-3/4 right-4 w-3/5 md:top-3/4 md:right-12 md:w-1/4" layout="intrinsic" src={textImage2}  alt=""/>
     </>
   )
 }
