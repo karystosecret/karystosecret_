@@ -4,18 +4,28 @@ import Footer from "@/components/Footer";
 import Image from 'next/image'
 import Link from 'next/link';
 
-import {beaches} from "/data/categories.json"
-import {places} from "/data/categories.json"
-import {products} from "/data/categories2.json"
-import {foods} from "/data/categories2.json"
+import { promises as fs } from 'fs';
+import router from 'next/router';
+
 
 import { notFound } from 'next/navigation';
 
-export default function MoreInfo({ params }: { params: { id: string } }) {
+export default async function MoreInfo({ params }: { params: { id: string } }) {
 
-    const all = beaches.concat(places, products, foods);
+    const file = await fs.readFile(process.cwd() + '/data/categories.json', 'utf8');
+    const data = JSON.parse(file);
+    const datafnl = data.beaches.concat(data.places);
+
+    const file2 = await fs.readFile(process.cwd() + '/data/categories2.json', 'utf8');
+    const data2 = JSON.parse(file2);
+    const data2fnl = data2.products.concat(data.sports);
+
+    const all = datafnl.concat(data2fnl);
     const itemId = params.id;
     const more = all.find((p: any) => p.id === parseInt(itemId));
+
+    console.log('datafnl:', datafnl);
+    console.log('all:', all);
 
     if (!more) {
         return notFound(); // Handle product not found (404)
