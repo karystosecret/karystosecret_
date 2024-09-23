@@ -1,11 +1,9 @@
-import Video from 'next-video'
-import MainVideo from '/videos/droneshot.mp4'
-import BackgroundVideo from 'next-video/background-video';
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Shops from "@/components/Shops";
 import Ships from "@/components/Ships";
 import Places from "@/components/Places"
+import Culture from "@/components/Culture"
 import Carousel from '@/components/Carousel';
 import Info from '@/components/Info';
 import Events from '@/components/Events';
@@ -18,7 +16,7 @@ export default function Home() {
       <Ships/>  
       <Info/> 
       <Places/>  
-      <Shops/>
+      <Culture/>
       <Events/>
       <Footer/>
     </main>
