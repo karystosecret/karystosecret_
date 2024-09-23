@@ -24,9 +24,6 @@ export default async function MoreInfo({ params }: { params: { id: string } }) {
     const itemId = params.id;
     const more = all.find((p: any) => p.id === parseInt(itemId));
 
-    console.log('datafnl:', datafnl);
-    console.log('all:', all);
-
     if (!more) {
         return notFound(); // Handle product not found (404)
       }
