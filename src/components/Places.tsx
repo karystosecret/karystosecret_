@@ -22,7 +22,7 @@ export default async function Shops()  {
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-y-12 gap-x-0 pb-4'>
                     {data.beaches.map((beach:any) =>(
                     <Link href={`/more/${beach.id}`} className="group hover:-translate-y-1 hover:scale-[1.01] transition ease-in-out duration-100 cursor-pointer m-8 m-w-20 w-full  decoration-green-900 border-radius-4 w-4/5 m-auto px-4 md:px-10">
-                        <p className="text-white center text-sm md:text-md md:font-bold  text-center mb-1">{beach.title}</p>
+                        <p className="text-white center text-md font-bold  text-center mb-1">{beach.title}</p>
                         <div className="relative w-full" style={{ paddingBottom: "55%" }}>
                             <Image
                             className="absolute rounded-sm inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
@@ -50,7 +50,7 @@ export default async function Shops()  {
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-y-12 gap-x-0 pb-4'>
                     {data.places.map((beach:any) =>(
                     <Link href={`/more/${beach.id}`} className="group hover:-translate-y-1 hover:scale-[1.01] transition ease-in-out duration-100 cursor-pointer m-8 m-w-20 w-full  decoration-green-900 border-radius-4 w-4/5 m-auto px-4 md:px-10">
-                        <p className="text-white center text-sm md:text-md md:font-bold  text-center mb-1">{beach.title}</p>
+                        <p className="text-white center text-md font-bold  text-center mb-1">{beach.title}</p>
                         <div className="relative w-full" style={{ paddingBottom: "58%" }}>
                             <Image
                             className="absolute rounded-sm inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
