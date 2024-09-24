@@ -16,7 +16,7 @@ const Shops = () =>  {
                 <p className="text-xl md:text-xl text-white font-bold mb-1 mx-10 w-full block">Πυροσβεστική Καρύστου</p>
                 <p className="text-md md:text-sm font ml-12 mb-8 mx-10 w-full block text-gray-200">2224026199 </p>
                 <p className="text-xl md:text-xl text-white font-bold mb-1 mx-10 w-full block">Λιμεναρχείο Καρύστου </p>
-                <p className="text-md md:text-sm font ml-12 mb-8 mx-10 w-full block text-gray-200">22240222 </p>
+                <p className="text-md md:text-sm font ml-12 mb-8 mx-10 w-full block text-gray-200">2224022227</p>
             </div> 
             <div className="animate-moveDownAnimation  md:w-1/2  items-center md:ml-40">
                 <p className="text-xl md:text-xl font-bold mb-1 mx-10 w-full block">Αστυνομία Καρύστου</p>
