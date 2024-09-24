@@ -46,7 +46,7 @@ const Header = () =>  {
                 <Link href="/culture" className="hidden md:flex items-center justify-center text-[#7ea9b5] hover:text-[#a0b29d] mx-8 text-xs text-center" >Τοπική Κουλτούρα</Link>
                 <Link href="/events" className="hidden md:flex items-center justify-center text-[#7ea9b5] hover:text-[#a0b29d] mx-8 text-xs text-center" >Εκδηλώσεις</Link>
             </div>
-            <Link href="/" className={"w-44 h-28 md:h-20 hover:opacity-75 absolute top-1 px-4 pt-2 left-0 right-0 m-auto" }>
+            <Link href="/" className={"w-44 md:w-32 h-28 md:h-20 hover:opacity-75 absolute top-1 px-4 pt-2 left-0 right-0 m-auto" }>
                 <Image className="m-auto" layout="intrinsic" src={logoImage} width={200} height={160} alt=""/>
             </Link>
         </div>    
