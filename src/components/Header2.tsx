@@ -20,7 +20,7 @@ const Header = () =>  {
 
 
     return (
-        <div className={ "backdrop-blur-lg bg-white/85 z-20 sticky top-0 left-0 right-0 flex flex-row h-20 w-full border-b-0 shadow-xl items-center " }>
+        <div className={ "backdrop-blur-lg bg-white/85 z-20 sticky top-0 left-0 right-0 flex flex-row h-24 md:h-20 w-full border-b-0 shadow-xl items-center " }>
            <button  onClick={toggleMenu} className=" md:hidden absolute left-0 px-8 hover:opacity-75 z-20">
                 <TfiAlignJustify className="m-2 fill-[#a0b29d] stroke-black w-6 h-6" />
             </button>
@@ -46,7 +46,7 @@ const Header = () =>  {
                 <Link href="/culture" className="hidden md:flex items-center justify-center text-[#7ea9b5] hover:text-[#a0b29d] mx-8 text-xs text-center" >Τοπική Κουλτούρα</Link>
                 <Link href="/events" className="hidden md:flex items-center justify-center text-[#7ea9b5] hover:text-[#a0b29d] mx-8 text-xs text-center" >Εκδηλώσεις</Link>
             </div>
-            <Link href="/" className={"w-32 h-20 hover:opacity-75 absolute top-1 px-4 pt-2 left-0 right-0 m-auto" }>
+            <Link href="/" className={"w-40 h-24 md:h-20 hover:opacity-75 absolute top-1 px-4 pt-2 left-0 right-0 m-auto" }>
                 <Image className="m-auto" layout="intrinsic" src={logoImage} width={200} height={160} alt=""/>
             </Link>
         </div>    

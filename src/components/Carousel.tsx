@@ -25,7 +25,7 @@ export default function EmblaCarousel() {
   return (
     <>
     <div className='animate-fadeInAnimation embla h-screen md:w-full md:pb-40 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]'>
-      <div className='embla__viewport  h-[calc(100%-8rem)] md:h-screen md:-mt-40' ref={emblaRef}>
+      <div className='embla__viewport  h-[calc(100%-10rem)] md:h-screen md:-mt-40' ref={emblaRef}>
         <div className='embla__container h-full'>
           <div className='embla__slide flex items-center justify-center'>
             <Image src={Image2} width={0} height={0} sizes="100vw" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt=""></Image>
@@ -39,8 +39,8 @@ export default function EmblaCarousel() {
         </div>
       </div>
     </div>
-    <Image className="animate-moveDownAnimation  pointer-events-none absolute -mt-10 md:mt-0 top-1/4 left-4 w-3/5 md:top-48 md:left-12 md:w-1/4 z-10" layout="intrinsic" src={textImage1} alt=""/>
-    <Image className="animate-moveDownAnimation  pointer-events-none absolute  top-3/4 right-4 w-3/5 md:top-3/4 md:right-12 md:w-1/4" layout="intrinsic" src={textImage2}  alt=""/>
+    <Image className="animate-moveDownAnimation  pointer-events-none absolute -mt-10 md:mt-0 top-1/4 left-4 w-3/6 md:top-48 md:left-12 md:w-1/4 z-10" layout="intrinsic" src={textImage1} alt=""/>
+    <Image className="animate-moveDownAnimation  pointer-events-none absolute  top-3/4 right-4 w-3/6 md:top-3/4 md:right-12 md:w-1/4" layout="intrinsic" src={textImage2}  alt=""/>
     </>
   )
 }
