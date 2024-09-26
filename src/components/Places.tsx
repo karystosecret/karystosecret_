@@ -14,7 +14,7 @@ export default async function Shops()  {
     return (
         <div id='Places' className="animate-fadeInAnimation p-6 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-10 w-full pt-8 pb-40 overflow-hidden">
         <p className="text-4xl md:text-5xl text-white font-bold text-center mb-4 drop-shadow-md tracking-tight">Τοποθεσίες</p>
-            <div className="rounded-md  w-full shadow-xl  items-center p-2 mb-12">
+            <div className="rounded-md  w-full shadow-md md:shadow-xl  items-center p-2 mb-12">
             <p className="flex items-center text-xl md:text-3xl text-white font-bold mt-8 mb-8 mx-4 md:mx-10 w-full">
             Παραλίες
             <span className="flex-grow h-px bg-white ml-4 mr-20"></span>
@@ -42,7 +42,7 @@ export default async function Shops()  {
                     ))}
                 </div>
             </div> 
-            <div className="rounded-md  w-full shadow-xl  items-center p-2 mb-12">
+            <div className="rounded-md  w-full shadow-md md:shadow-xl  items-center p-2 mb-12">
             <p className="flex items-center text-xl md:text-3xl text-white font-bold mt-8 mb-8 mx-4 md:mx-10 w-full">
             Αξιοθέατα
             <span className="flex-grow h-px bg-white ml-4 mr-20"></span>

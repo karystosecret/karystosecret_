@@ -21,7 +21,7 @@ export default function EmblaCarousel() {
   return (
     <div id='Events' className='p-6 md:p-20 animate-fadeInAnimation embla w-full bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5] pt-8 pb-40'>
         <p className="text-4xl md:text-5xl text-white font-bold text-center mb-4 drop-shadow-md tracking-tight">Εκδηλώσεις</p>
-        <div className='animate-moveDownAnimation flex flex-col md:flex-row rounded-md shadow-xl md:px-44 '>
+        <div className='animate-moveDownAnimation flex flex-col md:flex-row rounded-md shadow-md md:shadow-xl md:px-44 '>
           <p className="mx-4 md:m-auto  md:w-3/6 m-auto text-gray-200 center text-center text-sm drop-shadow-md">Live συναυλίες, εκθέσεις, θεατρικές και χορευτικές παραστάσεις και προβολές συμβαίνουν στην Κάρυστο και μας καλούν να ζήσουμε μια ξεχωριστή εμπειρία.</p>
           <div className='embla__viewport md:w-1/4 w-3/4 m-10 mt-4 md:m-auto md:my-10 shadow-xl mx-auto' ref={emblaRef}>
             <div className='embla__container h-full '>
