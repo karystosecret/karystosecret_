@@ -12,7 +12,7 @@ export default async function Shops()  {
     const file = await fs.readFile(process.cwd() + '/data/categories.json', 'utf8');
     const data = JSON.parse(file);
     return (
-        <div id='Places' className="animate-fadeInAnimation p-8 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-10 w-full pt-8 pb-40 overflow-hidden">
+        <div id='Places' className="animate-fadeInAnimation p-6 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-10 w-full pt-8 pb-40 overflow-hidden">
         <p className="text-4xl md:text-5xl text-white font-bold text-center mb-4 drop-shadow-md tracking-tight">Τοποθεσίες</p>
             <div className="rounded-md  w-full shadow-xl  items-center p-2 mb-12">
             <p className="flex items-center text-xl md:text-3xl text-white font-bold mt-8 mb-8 mx-4 md:mx-10 w-full">

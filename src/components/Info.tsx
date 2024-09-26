@@ -6,7 +6,7 @@ import Maps from "@/components/Maps";
 
 const Shops = () =>  {
     return (
-        <div id='Info' className="snap-always snap-start animate-fadeInAnimation p-8 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-10 w-full md:pt-8 pb-40 overflow-hidden">
+        <div id='Info' className="snap-always snap-start animate-fadeInAnimation p-6 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-10 w-full md:pt-8 pb-40 overflow-hidden">
         <Image src={birdsImage} width={140} height={140} layout="intrinsic" sizes=""  alt=''className="hidden drop-shadow-md absolute top-100vh left-0 md:ml-8 ml-1 z-10 md:pt-2 pt-8 scale-50 md:scale-100"/>
         <p className="text-4xl md:text-5xl text-white font-bold text-center mb-4 md:mb-8 drop-shadow-md tracking-tight">Χρήσιμα Τηλέφωνα</p>
             <div className='grid grid-cols-1 md:grid-cols-2 w-full rounded-md shadow-xl  md:p-4 p-0 pt-4 md:pt-0 mb-8 '>

@@ -5,7 +5,7 @@ import olivesImage from '/public/icons/olives.png'
 
 const Shops = () =>  {
     return (
-        <div id="Ships" className="animate-fadeInAnimation p-8 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-0 w-full md:pt-8 overflow-hidden pb-40 md:pb-40">
+        <div id="Ships" className="animate-fadeInAnimation p-6 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-0 w-full md:pt-8 overflow-hidden pb-40 md:pb-40">
         <Image src={olivesImage} width={100} height={100} layout="intrinsic" sizes=""  alt=''className="hidden scale-75 md:scale-100 drop-shadow-md absolute right-0 -mt-8 md:mt-0 mr-0 md:mr-6 z-20"/>
         <p className="text-4xl md:text-5xl text-white font-bold text-center  mb-12 z-10 drop-shadow-md tracking-tight">Δρομολόγια Πλοίων</p>
         <p className="text-lg text-white text-center mt-10">Ραφήνα - Μαρμάρι</p>
