@@ -80,7 +80,7 @@ export default async function MoreInfo({ params }: { params: { id: string } }) {
               <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-8 md:gap-y-8 gap-2">
                 <div className="animate-moveDownAnimation w-full relative" style={{ paddingBottom: "65%" }}>
                   <Image
-                    className="absolute rounded-sm inset-0 w-full h-full object-cover"
+                    className="absolute rounded-md inset-0 w-full h-full object-cover"
                     src={item.image}
                     alt={item.image2}
                     fill
@@ -88,7 +88,7 @@ export default async function MoreInfo({ params }: { params: { id: string } }) {
                 </div>
                 <div className="animate-moveDownAnimation w-full relative" style={{ paddingBottom: "65%" }}>
                   <Image
-                    className="absolute rounded-sm inset-0 w-full h-full object-cover"
+                    className="absolute rounded-md inset-0 w-full h-full object-cover"
                     src={item.image2}
                     alt={item.image}
                     fill
