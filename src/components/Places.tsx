@@ -34,9 +34,9 @@ export default async function Shops()  {
                          layout="fill"
                        />
                        <div className="absolute inset-0 flex flex-col justify-start p-0.5 text-white ">
-                         <p className="text-lg font-bold text-center mb-[46%]">{beach.title}</p>
-                         <p className="text-sm text-center mt-1 ">{beach.smallDescription}</p>
-                         <p className="text-sm text-center mt-1 ">{beach.region}</p>
+                         <p className="text-lg font-bold text-center mb-[47%]">{beach.title}</p>
+                         <p className="text-sm text-center ">{beach.smallDescription}</p>
+                         <p className="text-sm text-center ">{beach.region}</p>
                        </div>
                      </div>
                      <button className="rounded-md md:rounded-sm border border-1 border-white relative mx-auto mt-2 flex items-center justify-center px-5 py-2 overflow-hidden text-white transition duration-300 ease-out shadow-md hover:shadow-xl hover:ring-2 hover:ring-[#7ea9b5]">
@@ -68,9 +68,9 @@ export default async function Shops()  {
                         layout="fill"
                       />
                       <div className="absolute inset-0 flex flex-col justify-start p-0.5 text-white ">
-                        <p className="text-lg font-bold text-center mb-[46%]">{beach.title}</p>
-                        <p className="text-sm text-center mt-1 ">{beach.smallDescription}</p>
-                        <p className="text-sm text-center mt-1 ">{beach.region}</p>
+                        <p className="text-lg font-bold text-center mb-[47%]">{beach.title}</p>
+                        <p className="text-sm text-center">{beach.smallDescription}</p>
+                        <p className="text-sm text-center">{beach.region}</p>
                       </div>
                     </div>
                     <button className="rounded-md md:rounded-sm border border-1 border-white relative mx-auto mt-2 flex items-center justify-center px-5 py-2 overflow-hidden text-white transition duration-300 ease-out shadow-md hover:shadow-xl hover:ring-2 hover:ring-[#7ea9b5]">
