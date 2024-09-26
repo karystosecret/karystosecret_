@@ -25,7 +25,7 @@ export default function EmblaCarousel() {
   return (
     <>
     <div className='animate-fadeInAnimation embla h-screen md:w-full md:pb-40 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]'>
-      <div className='embla__viewport  h-[calc(100%-9rem)] md:h-screen md:-mt-40' ref={emblaRef}>
+      <div className='embla__viewport  h-[calc(100%-8rem)] md:h-screen md:-mt-40' ref={emblaRef}>
         <div className='embla__container h-full'>
           <div className='embla__slide flex items-center justify-center'>
             <Image src={Image2} width={0} height={0} sizes="100vw" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt=""></Image>
