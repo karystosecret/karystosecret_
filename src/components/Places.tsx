@@ -33,7 +33,7 @@ export default async function Shops()  {
                          alt={beach.title}
                          layout="fill"
                        />
-                       <div className="absolute inset-0 flex flex-col justify-start p-0.5 text-white bg-black bg-opacity-15">
+                       <div className="absolute inset-0 flex flex-col justify-start p-0.5 text-white ">
                          <p className="text-lg font-bold text-center mb-[46%]">{beach.title}</p>
                          <p className="text-sm text-center mt-1 ">{beach.smallDescription}</p>
                          <p className="text-sm text-center mt-1 ">{beach.region}</p>
@@ -67,7 +67,7 @@ export default async function Shops()  {
                         alt={beach.title}
                         layout="fill"
                       />
-                      <div className="absolute inset-0 flex flex-col justify-start p-0.5 text-white bg-black bg-opacity-15">
+                      <div className="absolute inset-0 flex flex-col justify-start p-0.5 text-white ">
                         <p className="text-lg font-bold text-center mb-[46%]">{beach.title}</p>
                         <p className="text-sm text-center mt-1 ">{beach.smallDescription}</p>
                         <p className="text-sm text-center mt-1 ">{beach.region}</p>
