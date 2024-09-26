@@ -38,7 +38,7 @@ const Header = () =>  {
     };
 
     return (
-        <div className={header ? "backdrop-blur-lg bg-white/85 z-20 sticky top-0 left-0 right-0 flex flex-row h-28 md:h-20 w-full border-b-0 shadow-xl items-center md:mb-20" : "backdrop-blur-lg bg-white/85 z-20 sticky top-0 left-0 right-0 flex flex-row h-28 md:h-40 w-full border-b-0 shadow-xl items-center " }>
+        <div className={header ? "backdrop-blur-lg bg-white/95 z-20 sticky top-0 left-0 right-0 flex flex-row h-28 md:h-20 w-full border-b-0 shadow-xl items-center md:mb-20" : "backdrop-blur-lg bg-white/95 z-20 sticky top-0 left-0 right-0 flex flex-row h-28 md:h-40 w-full border-b-0 shadow-xl items-center " }>
             <button  onClick={toggleMenu} className=" md:hidden absolute left-0 px-8 hover:opacity-75 z-20">
                 <TfiAlignJustify className="m-2 fill-[#a0b29d] stroke-black w-6 h-6" />
             </button>
