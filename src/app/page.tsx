@@ -9,7 +9,7 @@ import Events from '@/components/Events';
 
 export default function Home() {
   return (
-    <main className="flex  flex-col items-center justify-between p-0">
+    <main className="flex  flex-col items-center justify-between p-0 snap-mandatory snap-y scroll-smooth">
       <Header/>
       <Carousel/> 
       <Ships/>  

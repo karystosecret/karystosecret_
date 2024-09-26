@@ -46,7 +46,7 @@ const Header = () =>  {
                 <div className="absolute top-28 left-0 w-full z-10 shadow-lg bg-white/95 backdrop-blur-lg ">
                     <div className="flex flex-col items-center">
                         <Link href="/" className="py-4 text-[#a0b29d] hover:text-[#7ea9b5] text-center w-full">Αρχική</Link>
-                        <Link href="/ships" className="py-4 text-[#a0b29d] hover:text-[#7ea9b5] text-center w-full">Δρομολόγια</Link>
+                        <Link href="/ships" className="py-4 text-[#a0b29d] hover:text-[#7ea9b5] text-center w-full">Δρομολόγια Πλοίων</Link>
                         <Link href="/info" className="py-4 text-[#a0b29d] hover:text-[#7ea9b5] text-center w-full">Χρήσιμα Τηλέφωνα</Link>
                         <Link href="/places" className="py-4 text-[#7ea9b5] hover:text-[#a0b29d] text-center w-full">Τοποθεσίες-Καταστήματα</Link>
                         <Link href="/culture" className="py-4 text-[#7ea9b5] hover:text-[#a0b29d] text-center w-full">Τοπική Κουλτούρα</Link>
