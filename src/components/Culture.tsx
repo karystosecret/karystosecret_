@@ -27,13 +27,13 @@ export default async function  Shops()  {
                    >
                      <div className="relative w-full" style={{ paddingBottom: "68%" }}>
                        <Image
-                         className="brightness-[0.94] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
+                         className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
                          src={beach.image}
                          alt={beach.title}
                          layout="fill"
                        />
-                       <div className="absolute inset-0 flex flex-col justify-start p-1 text-white ">
-                         <p className="text-lg font-bold text-center mb-[54%] drop-shadow-lg">{beach.title}</p>
+                       <div className="absolute inset-0 flex flex-col justify-start text-white ">
+                         <p className="p-1 text-md font-semibold text-center mb-[51%] drop-shadow-lg border-b bg-black bg-opacity-20 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[10px] text-center drop-shadow-lg">{beach.smallDescription}</p>
                          <p className="text-[10px] text-center ">{beach.region}</p>
                        </div>
@@ -61,13 +61,13 @@ export default async function  Shops()  {
       >
         <div className="relative w-full" style={{ paddingBottom: "68%" }}>
           <Image
-            className="brightness-[0.94] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
+            className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
             src={beach.image}
             alt={beach.title}
             layout="fill"
           />
-          <div className="absolute inset-0 flex flex-col justify-start p-1 text-white ">
-            <p className="text-lg font-bold text-center mb-[55%] drop-shadow-lg">{beach.title}</p>
+          <div className="absolute inset-0 flex flex-col justify-start text-white ">
+            <p className="p-1 text-md font-semibold text-center mb-[53%] drop-shadow-lg border-b  bg-black bg-opacity-20 rounded-md backdrop-blur-[1px]">{beach.title}</p>
             <p className="text-[10px] text-center drop-shadow-lg">{beach.smallDescription}</p>
             <p className="text-[10px] text-center ">{beach.region}</p>
           </div>
