@@ -26,7 +26,7 @@ export default async function Shops()  {
                      href={`/more/${beach.id}`}
                      className="group hover:-translate-y-1 hover:scale-[1.01] transition ease-in-out duration-100 cursor-pointer m-4 m-w-20 w-full decoration-green-900 border-radius-4 w-4/5 m-auto px-2 md:px-4"
                    >
-                     <div className="relative w-full" style={{ paddingBottom: "58%" }}>
+                     <div className="relative w-full" style={{ paddingBottom: "62%" }}>
                        <Image
                          className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
                          src={beach.image}
@@ -34,7 +34,7 @@ export default async function Shops()  {
                          layout="fill"
                        />
                        <div className="absolute inset-0 flex flex-col justify-start text-white ">
-                         <p className="p-1 text-md font-semibold text-center mb-[40%] drop-shadow-lg border-b  bg-black bg-opacity-10 rounded-md backdrop-blur-[1px]">{beach.title}</p>
+                         <p className="p-1 text-md font-semibold text-center mb-[41%] drop-shadow-lg border-b  bg-black bg-opacity-10 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[8px] text-center drop-shadow-lg">{beach.smallDescription}</p>
                          <p className="text-[8px] text-center ">{beach.region}</p>
                        </div>
@@ -60,7 +60,7 @@ export default async function Shops()  {
                      href={`/more/${beach.id}`}
                      className="group hover:-translate-y-1 hover:scale-[1.01] transition ease-in-out duration-100 cursor-pointer m-4 m-w-20 w-full decoration-green-900 border-radius-4 w-4/5 m-auto px-2 md:px-4"
                    >
-                     <div className="relative w-full" style={{ paddingBottom: "58%" }}>
+                     <div className="relative w-full" style={{ paddingBottom: "62%" }}>
                        <Image
                          className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
                          src={beach.image}
@@ -68,7 +68,7 @@ export default async function Shops()  {
                          layout="fill"
                        />
                        <div className="absolute inset-0 flex flex-col justify-start text-white ">
-                         <p className="p-1 text-md font-semibold text-center mb-[40%] drop-shadow-lg border-b bg-black bg-opacity-10 rounded-md backdrop-blur-[1px]">{beach.title}</p>
+                         <p className="p-1 text-md font-semibold text-center mb-[41%] drop-shadow-lg border-b bg-black bg-opacity-10 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[8px] text-center drop-shadow-lg">{beach.smallDescription}</p>
                          <p className="text-[8px] text-center ">{beach.region}</p>
                        </div>
