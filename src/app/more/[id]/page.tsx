@@ -99,7 +99,7 @@ export default async function MoreInfo({ params }: { params: { id: string } }) {
               <p className="animate-moveDownAnimation text-lg center mt-4 text-gray-200">{item.region}</p>
               <p style={{ whiteSpace: 'pre-line' }} className="text-sm md:text-md center mt-4 text-gray-200">{item.bigDescription}</p>
               {item.link && (
-                <a href={item.link} className="animate-jump cursor-pointer rounded-sm border border-1 border-white relative md:mx-80 my-8 flex items-center justify-center px-5 py-4 overflow-hidden text-white transition duration-300 ease-out shadow-md hover:shadow-xl hover:ring-2 hover:[#7ea9b5]">
+                <a href={item.link} className="animate-jump cursor-pointer rounded-md border border-1 border-white relative md:mx-80 my-8 flex items-center justify-center px-5 py-4 overflow-hidden text-white transition duration-300 ease-out shadow-md hover:shadow-xl hover:ring-2 hover:[#7ea9b5]">
                   <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-[#a0b29d] via-[#7ea9b5] to-[#a0b29d]"></span>
                   <span className="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-[#a0b29d] opacity-30 group-hover:rotate-90 ease"></span>
                   <span className="relative text-white text-md">Άνοιγμα στον Χάρτη</span>

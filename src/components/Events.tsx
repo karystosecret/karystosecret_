@@ -26,10 +26,10 @@ export default function EmblaCarousel() {
           <div className='embla__viewport md:w-1/4 w-3/4 m-10 mt-4 md:m-auto md:my-10 shadow-xl mx-auto' ref={emblaRef}>
             <div className='embla__container h-full '>
               <div className='embla__slide flex items-center justify-center'>
-                <Image className='rounded-lg md:rounded-md' src={Image1} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
+                <Image className='rounded-lg ' src={Image1} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
               </div>
               <div className='embla__slide flex items-center justify-center '>
-                <Image className='rounded-lg md:rounded-md' src={Image1} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
+                <Image className='rounded-lg ' src={Image1} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
               </div>
             </div>
           </div>
