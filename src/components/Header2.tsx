@@ -25,7 +25,7 @@ const Header = () =>  {
                 <TfiAlignJustify className="m-2 fill-[#a0b29d] stroke-black w-6 h-6" />
             </button>
             {isMenuOpen && (
-                <div className="absolute top-28 left-0 w-full z-10 shadow-lg bg-white/95 backdrop-blur-lg ">
+                <div className="absolute top-28 left-0 w-full z-10 shadow-lg bg-white/95 backdrop-blur-lg border-y border-[#a0b29d]">
                     <div className="flex flex-col items-center">
                         <Link href="/" className="py-4 text-[#a0b29d] hover:text-[#7ea9b5] text-center w-full">Αρχική</Link>
                         <Link href="/ships" className="py-4 text-[#a0b29d] hover:text-[#7ea9b5] text-center w-full">Δρομολόγια Πλοίων</Link>
