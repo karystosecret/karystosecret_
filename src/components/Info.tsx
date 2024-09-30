@@ -27,7 +27,7 @@ const Shops = () =>  {
                 <p className="text-md md:text-sm font ml-10 md:ml-12 mb-4 md:mb-8 mx-8 md:mx-10 w-full text-gray-200">2224026500</p>
             </div> 
             </div>
-            <Maps/>
+            <div className="rounded-md overflow-hidden"><Maps/></div>
         </div>   
     );
 };

@@ -7,17 +7,34 @@ interface AdvancedMarkerProps {
 
 const AdvancedMarker: React.FC<AdvancedMarkerProps> = ({ position }) => {
   const map = useGoogleMap();
+  const markerRef = React.useRef<google.maps.Marker | google.maps.marker.AdvancedMarkerElement | null>(null);
 
   React.useEffect(() => {
     if (!map) return;
 
-    const advancedMarker = new google.maps.marker.AdvancedMarkerElement({
-      map,
-      position,
-    });
+    const { AdvancedMarkerElement } = google.maps.marker || {};
+
+    if (AdvancedMarkerElement) {
+      markerRef.current = new AdvancedMarkerElement({
+        map,
+        position,
+      });
+    } else {
+      // Fallback to regular Marker if AdvancedMarkerElement is not available
+      markerRef.current = new google.maps.Marker({
+        map,
+        position,
+      });
+    }
 
     return () => {
-      advancedMarker.map = null;
+      if (markerRef.current) {
+        if ('setMap' in markerRef.current) {
+          (markerRef.current as google.maps.Marker).setMap(null);
+        } else {
+          (markerRef.current as google.maps.marker.AdvancedMarkerElement).map = null;
+        }
+      }
     };
   }, [map, position]);
 
