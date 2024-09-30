@@ -34,7 +34,7 @@ export default async function Shops()  {
                          layout="fill"
                        />
                        <div className="absolute inset-0 flex flex-col justify-start text-white ">
-                         <p className="p-1 text-xs font-semibold text-center mb-[41%] drop-shadow-lg border-b  bg-[#3b5961] bg-opacity-65 rounded-md backdrop-blur-[1px]">{beach.title}</p>
+                         <p className="p-1 text-xs font-semibold text-center mb-[41%] drop-shadow-lg border-b  bg-[#3b5961] bg-opacity-55 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[0.6rem] text-center drop-shadow-lg">{beach.smallDescription}</p>
                          <p className="text-[0.6rem] text-center ">{beach.region}</p>
                        </div>
@@ -68,7 +68,7 @@ export default async function Shops()  {
                          layout="fill"
                        />
                        <div className="absolute inset-0 flex flex-col justify-start text-white ">
-                         <p className="p-1 text-xs font-semibold text-center mb-[41%] drop-shadow-lg border-b bg-[#3b5961] bg-opacity-65 rounded-md backdrop-blur-[1px]">{beach.title}</p>
+                         <p className="p-1 text-xs font-semibold text-center mb-[41%] drop-shadow-lg border-b bg-[#3b5961] bg-opacity-55 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[0.6rem] text-center drop-shadow-lg">{beach.smallDescription}</p>
                          <p className="text-[0.6rem] text-center ">{beach.region}</p>
                        </div>
