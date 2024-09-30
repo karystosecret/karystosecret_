@@ -29,7 +29,7 @@ const Weather: React.FC<WeatherProps> = ({ weather }) => {
         <img
           src={`http://openweathermap.org/img/wn/${weatherIcon}@2x.png`}
           alt={weatherDescription}
-          className="w-18 h-18 mx-auto"
+          className="w-16 h-16 mx-auto"
         />
       </div>
     )}
