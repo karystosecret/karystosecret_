@@ -72,9 +72,9 @@ export default async function MoreInfo({ params }: { params: { id: string } }) {
   return (
     <>
       <Header/>
-      <div id='Places' className="animate-fadeInAnimation p-4 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5] z-10 w-full pt-8 pb-40">
-        <p className="text-4xl md:text-5xl text-white font-bold text-center mb-8 drop-shadow-md tracking-tight">{item.title}</p>
-        <div className="rounded-md w-full shadow-xl items-center mb-12">
+      <div id='Places' className="animate-fadeInAnimation p-4 md:px-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5] z-10 w-full pt-8 pb-10">
+        <p className="text-4xl md:text-5xl text-white font-bold text-center mb-4 drop-shadow-md tracking-tight">{item.title}</p>
+        <div className="rounded-md w-full shadow-xl items-center pt-4 md:pt-8 bg-white bg-opacity-5">
           <div className='pb-4'>
             <div className="md:m-0 md:m-t-8 m-8 w-full decoration-green-900 border-radius-4 w-4/5 m-auto px-4 md:px-10">
               <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-8 md:gap-y-8 gap-2">
@@ -99,7 +99,7 @@ export default async function MoreInfo({ params }: { params: { id: string } }) {
               <p className="animate-moveDownAnimation text-lg center mt-4 text-gray-200">{item.region}</p>
               <p style={{ whiteSpace: 'pre-line' }} className="text-sm md:text-md center mt-4 text-gray-200">{item.bigDescription}</p>
               {item.link && (
-                <a href={item.link} className="animate-jump cursor-pointer rounded-md border border-1 border-white relative md:mx-80 my-8 flex items-center justify-center px-5 py-4 overflow-hidden text-white transition duration-300 ease-out shadow-md hover:shadow-xl hover:ring-2 hover:[#7ea9b5]">
+                <a href={item.link} className="animate-jump cursor-pointer rounded-md border border-1 border-white relative md:mx-80 mt-10 mb-1 md:mb-4 flex items-center justify-center px-5 py-4 overflow-hidden text-white transition duration-300 ease-out shadow-md hover:shadow-xl hover:ring-2 hover:[#7ea9b5]">
                   <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-[#a0b29d] via-[#7ea9b5] to-[#a0b29d]"></span>
                   <span className="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-[#a0b29d] opacity-30 group-hover:rotate-90 ease"></span>
                   <span className="relative text-white text-md">Άνοιγμα στον Χάρτη</span>
