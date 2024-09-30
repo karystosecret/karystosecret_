@@ -19,7 +19,7 @@ export default async function Shops()  {
             Παραλίες
             <span className="flex-grow h-px bg-white ml-4 mr-20"></span>
             </p>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-y-14 gap-x-0 pb-4'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-y-10 gap-x-0 pb-4'>
                     {data.beaches.map((beach:any) =>(
                      <Link
                      key={beach.id}
@@ -53,7 +53,7 @@ export default async function Shops()  {
             Αξιοθέατα
             <span className="flex-grow h-px bg-white ml-4 mr-20"></span>
             </p>
-                <div className='grid grid-cols-1 md:grid-cols-3 gap-y-14 gap-x-0 pb-4'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-y-10 gap-x-0 pb-4'>
                     {data.places.map((beach:any) =>(
                      <Link
                      key={beach.id}
