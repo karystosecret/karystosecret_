@@ -33,22 +33,22 @@ const Weather: React.FC<WeatherProps> = ({ weather }) => {
         />
       </div>
     )}
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-white">
+    <div className="grid grid-cols-4 gap-2 text-white">
       <div className="text-center">
-        <p className="text-xs font-semibold">Θερμοκρασία</p>
-        <p className="text-xs">{weather.main.temp}°C</p>
+        <p className="text-[8px] md:text-xs font-semibold">Θερμοκρασία</p>
+        <p className="text-[8px] md:text-xs">{weather.main.temp}°C</p>
       </div>
       <div className="text-center">
-        <p className="text-xs font-semibold">Συνθήκες</p>
-        <p className="text-xs">{weatherDescription}</p>
+        <p className="text-[8px] md:text-xs font-semibold">Συνθήκες</p>
+        <p className="text-[8px] md:text-xs">{weatherDescription}</p>
       </div>
       <div className="text-center">
-        <p className="text-xs font-semibold">Υγρασία</p>
-        <p className="text-xs">{weather.main.humidity}%</p>
+        <p className="text-[8px] md:text-xs font-semibold">Υγρασία</p>
+        <p className="text-[8px] md:text-xs">{weather.main.humidity}%</p>
       </div>
       <div className="text-center">
-        <p className="text-xs font-semibold">Ταχύτητα Ανέμου</p>
-        <p className="text-xs">{weather.wind.speed} m/s</p>
+        <p className="text-[8px] md:text-xs font-semibold">Ταχύτητα Ανέμου</p>
+        <p className="text-[8px] md:text-xs">{weather.wind.speed} m/s</p>
       </div>
     </div>
     </>
