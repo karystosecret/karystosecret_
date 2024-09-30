@@ -18,6 +18,8 @@ interface WeatherProps {
 }
 
 const Weather: React.FC<WeatherProps> = ({ weather }) => {
+  const weatherDescription = weather.weather.length > 0 ? weather.weather[0].description : 'No data';
+
   return (
     <div className="grid grid-cols-2 gap-4 text-white">
       <div className="text-center">
@@ -26,7 +28,7 @@ const Weather: React.FC<WeatherProps> = ({ weather }) => {
       </div>
       <div className="text-center">
         <p className="text-lg font-semibold">Συνθήκες</p>
-        <p className="text-xl">{weather.weather[0].description}</p>
+        <p className="text-xl">{weatherDescription}</p>
       </div>
       <div className="text-center">
         <p className="text-lg font-semibold">Υγρασία</p>
