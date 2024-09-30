@@ -1,5 +1,6 @@
-import { FC } from 'react';
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import React from 'react';
+import { GoogleMap, LoadScriptNext } from '@react-google-maps/api';
+import AdvancedMarker from './AdvancedMarker';
 
 const containerStyle = {
   width: '100%',
@@ -11,36 +12,31 @@ const center = {
   lng: 24.4190000,
 };
 
-const nosokomeio = {
-  lat: 38.019149759981275,
-  lng: 24.423861639339265,
+const locations = {
+  nosokomeio: { lat: 38.019149759981275, lng: 24.423861639339265 },
+  astinomia: { lat: 38.01503736260557, lng: 24.420720508110698 },
+  limenarxeio: { lat: 38.013608253551524, lng: 24.419178523453596 },
+  pirosvestiki: { lat: 38.019603059092525, lng: 24.412683908653555 },
 };
 
-const astinomia = {
-  lat: 38.01503736260557,
-  lng: 24.420720508110698,
-};
+const Maps: React.FC = () => {
+  const [loadError, setLoadError] = React.useState<Error | undefined>(undefined);
 
-const limenarxeio ={
-  lat: 38.013608253551524, 
-  lng: 24.419178523453596,
-};
+  if (loadError) {
+    return <div>Error loading maps: {loadError.message}</div>;
+  }
 
-const pirosvestiki = {
-  lat: 38.019603059092525,
-  lng: 24.412683908653555,
-};
-
-const Maps: FC = () => {
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBihIYoMV0a9nEQ0z5M9qscWhlXSk2YVDc">
+    <LoadScriptNext
+      googleMapsApiKey="AIzaSyBihIYoMV0a9nEQ0z5M9qscWhlXSk2YVDc"
+      onError={(error) => setLoadError(error)}
+    >
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={14.2}>
-        <Marker position={astinomia} />
-        <Marker position={nosokomeio} />
-        <Marker position={limenarxeio} />
-        <Marker position={pirosvestiki} />
+        {Object.entries(locations).map(([key, position]) => (
+          <AdvancedMarker key={key} position={position} />
+        ))}
       </GoogleMap>
-    </LoadScript>
+    </LoadScriptNext>
   );
 };
 
