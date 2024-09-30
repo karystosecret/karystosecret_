@@ -29,26 +29,26 @@ const Weather: React.FC<WeatherProps> = ({ weather }) => {
         <img
           src={`http://openweathermap.org/img/wn/${weatherIcon}@2x.png`}
           alt={weatherDescription}
-          className="w-20 h-20 mx-auto"
+          className="w-18 h-18 mx-auto"
         />
       </div>
     )}
-    <div className="grid grid-cols-2 gap-4 text-white">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-white">
       <div className="text-center">
         <p className="text-sm font-semibold">Θερμοκρασία</p>
-        <p className="text-md">{weather.main.temp}°C</p>
+        <p className="text-sm">{weather.main.temp}°C</p>
       </div>
       <div className="text-center">
         <p className="text-sm font-semibold">Συνθήκες</p>
-        <p className="text-md">{weatherDescription}</p>
+        <p className="text-sm">{weatherDescription}</p>
       </div>
       <div className="text-center">
         <p className="text-sm font-semibold">Υγρασία</p>
-        <p className="text-md">{weather.main.humidity}%</p>
+        <p className="text-sm">{weather.main.humidity}%</p>
       </div>
       <div className="text-center">
         <p className="text-sm font-semibold">Ταχύτητα Ανέμου</p>
-        <p className="text-md">{weather.wind.speed} m/s</p>
+        <p className="text-sm">{weather.wind.speed} m/s</p>
       </div>
     </div>
     </>
