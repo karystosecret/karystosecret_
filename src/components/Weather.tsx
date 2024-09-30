@@ -7,6 +7,7 @@ interface WeatherData {
   };
   weather: Array<{
     description: string;
+    icon: string; // Add the 'icon' field here
   }>;
   wind: {
     speed: number;
@@ -19,26 +20,38 @@ interface WeatherProps {
 
 const Weather: React.FC<WeatherProps> = ({ weather }) => {
   const weatherDescription = weather.weather.length > 0 ? weather.weather[0].description : 'No data';
+  const weatherIcon = weather.weather.length > 0 ? weather.weather[0].icon : null; // Get the icon code
 
   return (
+    <>
+    {weatherIcon && (
+      <div className="text-center">
+        <img
+          src={`http://openweathermap.org/img/wn/${weatherIcon}@2x.png`}
+          alt={weatherDescription}
+          className="w-20 h-20 mx-auto"
+        />
+      </div>
+    )}
     <div className="grid grid-cols-2 gap-4 text-white">
       <div className="text-center">
-        <p className="text-lg font-semibold">Θερμοκρασία</p>
-        <p className="text-3xl">{weather.main.temp}°C</p>
+        <p className="text-sm font-semibold">Θερμοκρασία</p>
+        <p className="text-md">{weather.main.temp}°C</p>
       </div>
       <div className="text-center">
-        <p className="text-lg font-semibold">Συνθήκες</p>
-        <p className="text-xl">{weatherDescription}</p>
+        <p className="text-sm font-semibold">Συνθήκες</p>
+        <p className="text-md">{weatherDescription}</p>
       </div>
       <div className="text-center">
-        <p className="text-lg font-semibold">Υγρασία</p>
-        <p className="text-xl">{weather.main.humidity}%</p>
+        <p className="text-sm font-semibold">Υγρασία</p>
+        <p className="text-md">{weather.main.humidity}%</p>
       </div>
       <div className="text-center">
-        <p className="text-lg font-semibold">Ταχύτητα Ανέμου</p>
-        <p className="text-xl">{weather.wind.speed} m/s</p>
+        <p className="text-sm font-semibold">Ταχύτητα Ανέμου</p>
+        <p className="text-md">{weather.wind.speed} m/s</p>
       </div>
     </div>
+    </>
   );
 };
 

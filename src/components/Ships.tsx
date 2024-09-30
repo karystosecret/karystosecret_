@@ -12,6 +12,7 @@ interface WeatherData {
   };
   weather: Array<{
     description: string;
+    icon: string; // Add the 'icon' field here
   }>;
   wind: {
     speed: number;
