@@ -50,66 +50,66 @@ const Shops = () =>  {
         <div className="grid w-full shadow-xl rounded-md items-center z-10 mt-4">
             <div className="grid grid-cols-8 grid rows-3 z-10">
                 <div className="w-full md:w-40"></div>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tl-md">Δευτέρα</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Τρίτη</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Τετάρτη</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Πέμπτη</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Παρασκευή</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Σάββατο</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tr-md">Κυριακή</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tl-md text-center">Δευτέρα</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Τρίτη</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Τετάρτη</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Πέμπτη</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Παρασκευή</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Σάββατο</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tr-md text-center">Κυριακή</p>
                 
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tl-md">Ραφήνα-Μαρμάρι </p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tl-md text-center">Ραφήνα-Μαρμάρι </p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center" >9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
 
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-bl-md">Μαρμάρι-Ραφήνα </p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 rounded-br-md">9:00, 16:00</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-bl-md text-center">Μαρμάρι-Ραφήνα </p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 rounded-br-md text-center" >9:00, 16:00</p>
             </div>
         </div>
         <p className="text-lg font-semibold text-white text-center mt-16">Αγία Μαρίνα - Νέα Στύρα</p>
         <div className="grid w-full shadow-xl items-center mt-4">
             <div className="grid grid-cols-8 grid rows-3">
                 <div className="w-full md:w-40"></div>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tl-md">Δευτέρα</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Τρίτη</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Τετάρτη</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Πέμπτη</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Παρασκευή</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1">Σάββατο</p>
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tr-md">Κυριακή</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tl-md text-center">Δευτέρα</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Τρίτη</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Τετάρτη</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Πέμπτη</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Παρασκευή</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 text-center">Σάββατο</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tr-md text-center">Κυριακή</p>
                 
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tl-md">Αγία Μαρίνα-Νέα Στύρα</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 rounded-bl-md">9:00, 16:00</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-tl-md text-center">Αγία Μαρίνα-Νέα Στύρα</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 rounded-bl-md text-center">9:00, 16:00</p>
 
-                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-bl-md">Νέα Στύρα-Αγία Μαρίνα </p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2">9:00, 16:00</p>
-                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 rounded-br-md">9:00, 16:00</p>
+                <p className="text-[6px] md:text-xs text-black outline outline-1 md:outline-2 outline-white p-1 rounded-bl-md text-center">Νέα Στύρα-Αγία Μαρίνα </p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 text-center">9:00, 16:00</p>
+                <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 rounded-br-md text-center">9:00, 16:00</p>
             </div>
         </div>
         <div className="mt-16 bg-white bg-opacity-5 rounded-md shadow-md md:shadow-xl p-2">
-                <h2 className="text-lg font-semibold text-white text-center mb-4">Τρέχων Καιρός στην Κάρυστο</h2>
+                <h2 className="text-lg font-semibold text-white text-center mb-0">Τρέχων Καιρός στην Κάρυστο</h2>
                 {loading ? (
                     <p className="text-white text-center">Φόρτωση δεδομένων καιρού...</p>
                 ) : error ? (
