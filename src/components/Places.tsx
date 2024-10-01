@@ -14,7 +14,7 @@ export default async function Shops()  {
     return (
         <div id='Places' className="animate-fadeInAnimation p-4 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-10 w-full pb-40 overflow-hidden md:pt-8">
         <p className="text-4xl md:text-5xl text-white font-bold text-center mb-4 drop-shadow-md tracking-tight">Τοποθεσίες</p>
-            <div className="rounded-md  w-full shadow-md md:shadow-xl  items-center p-2 mb-8 bg-white bg-opacity-5">
+            <div className="rounded-md  w-full shadow-md md:shadow-xl  items-center p-2 mb-8 bg-white bg-opacity-10">
             <p className="flex items-center text-xl md:text-3xl text-white font-bold mt-4 mb-8 mx-4 md:mx-10 w-full">
             Παραλίες
             <span className="flex-grow h-px bg-white ml-4 mr-20"></span>
@@ -26,7 +26,7 @@ export default async function Shops()  {
                      href={`/more/${beach.id}`}
                      className="group hover:-translate-y-1 hover:scale-[1.01] transition ease-in-out duration-100 cursor-pointer m-4 m-w-20 w-full decoration-green-900 border-radius-4 w-4/5 m-auto px-2 md:px-4"
                    >
-                     <div className="relative w-full" style={{ paddingBottom: "58%" }}>
+                     <div className="relative w-full" style={{ paddingBottom: "56%" }}>
                        <Image
                          className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
                          src={beach.image}
@@ -34,7 +34,7 @@ export default async function Shops()  {
                          layout="fill"
                        />
                        <div className="absolute inset-0 flex flex-col justify-start text-white ">
-                         <p className="p-1 text-xs font-semibold text-center mb-[41%] drop-shadow-lg border-b  bg-[#3b5961] bg-opacity-55 rounded-md backdrop-blur-[1px]">{beach.title}</p>
+                         <p className="p-1 text-xs font-semibold text-center mb-[39%] drop-shadow-lg border-b  bg-[#3b5961] bg-opacity-50 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[0.6rem] text-center drop-shadow-lg">{beach.smallDescription}</p>
                          <p className="text-[0.6rem] text-center ">{beach.region}</p>
                        </div>
@@ -48,7 +48,7 @@ export default async function Shops()  {
                     ))}
                 </div>
             </div> 
-            <div className="rounded-md  w-full shadow-md md:shadow-xl  items-center p-2 mb-8 bg-white bg-opacity-5">
+            <div className="rounded-md  w-full shadow-md md:shadow-xl  items-center p-2 mb-8 bg-white bg-opacity-10">
             <p className="flex items-center text-xl md:text-3xl text-white font-bold mt-4 mb-8 mx-4 md:mx-10 w-full">
             Αξιοθέατα
             <span className="flex-grow h-px bg-white ml-4 mr-20"></span>
@@ -60,7 +60,7 @@ export default async function Shops()  {
                      href={`/more/${beach.id}`}
                      className="group hover:-translate-y-1 hover:scale-[1.01] transition ease-in-out duration-100 cursor-pointer m-4 m-w-20 w-full decoration-green-900 border-radius-4 w-4/5 m-auto px-2 md:px-4"
                    >
-                     <div className="relative w-full" style={{ paddingBottom: "58%" }}>
+                     <div className="relative w-full" style={{ paddingBottom: "56%" }}>
                        <Image
                          className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
                          src={beach.image}
@@ -68,7 +68,7 @@ export default async function Shops()  {
                          layout="fill"
                        />
                        <div className="absolute inset-0 flex flex-col justify-start text-white ">
-                         <p className="p-1 text-xs font-semibold text-center mb-[41%] drop-shadow-lg border-b bg-[#3b5961] bg-opacity-55 rounded-md backdrop-blur-[1px]">{beach.title}</p>
+                         <p className="p-1 text-xs font-semibold text-center mb-[39%] drop-shadow-lg border-b bg-[#3b5961] bg-opacity-50 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[0.6rem] text-center drop-shadow-lg">{beach.smallDescription}</p>
                          <p className="text-[0.6rem] text-center ">{beach.region}</p>
                        </div>

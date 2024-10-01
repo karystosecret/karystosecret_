@@ -74,7 +74,7 @@ export default async function MoreInfo({ params }: { params: { id: string } }) {
       <Header/>
       <div id='Places' className="animate-fadeInAnimation p-4 md:px-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5] z-10 w-full pt-8 pb-10">
         <p className="text-4xl md:text-5xl text-white font-bold text-center mb-4 drop-shadow-md tracking-tight">{item.title}</p>
-        <div className="rounded-md w-full shadow-xl items-center pt-4 md:pt-8 bg-white bg-opacity-5">
+        <div className="rounded-md w-full shadow-xl items-center pt-4 md:pt-8 bg-white bg-opacity-10">
           <div className='pb-4'>
             <div className="md:m-0 md:m-t-8 m-8 w-full decoration-green-900 border-radius-4 w-4/5 m-auto px-4 md:px-10">
               <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-8 md:gap-y-8 gap-2">

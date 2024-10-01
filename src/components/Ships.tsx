@@ -108,7 +108,7 @@ const Shops = () =>  {
                 <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 rounded-br-md text-center">9:00, 16:00</p>
             </div>
         </div>
-        <div className="mt-16 bg-white bg-opacity-5 rounded-md shadow-md md:shadow-xl p-2">
+        <div className="mt-16 bg-white bg-opacity-10 rounded-md shadow-md md:shadow-xl p-2">
                 <h2 className="text-lg font-semibold text-white text-center mb-0">Τρέχων Καιρός στην Κάρυστο</h2>
                 {loading ? (
                     <p className="text-white text-center">Φόρτωση δεδομένων καιρού...</p>
