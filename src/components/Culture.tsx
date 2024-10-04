@@ -27,7 +27,7 @@ export default async function  Shops()  {
                    >
                      <div className="relative w-full" style={{ paddingBottom: "56%" }}>
                        <Image
-                         className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
+                         className=" absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
                          src={beach.image}
                          alt={beach.title}
                          layout="fill"
@@ -49,7 +49,7 @@ export default async function  Shops()  {
             </div> 
             <div className="rounded-md  w-full shadow-md md:shadow-xl  items-center p-2 mb-8 bg-white bg-opacity-5">
             <p className="flex items-center text-xl md:text-3xl text-white font-bold mt-4 mb-8 mx-4 md:mx-10 w-full">
-            Αθλητισμός
+            Αθλητισμός-Δραστηριότητες
             <span className="flex-grow h-px bg-white ml-4 mr-20"></span>
             </p>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-y-10 gap-x-0 pb-4'>
@@ -61,7 +61,7 @@ export default async function  Shops()  {
       >
         <div className="relative w-full" style={{ paddingBottom: "56%" }}>
           <Image
-            className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
+            className="absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
             src={beach.image}
             alt={beach.title}
             layout="fill"

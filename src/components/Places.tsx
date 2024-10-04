@@ -28,7 +28,7 @@ export default async function Shops()  {
                    >
                      <div className="relative w-full" style={{ paddingBottom: "56%" }}>
                        <Image
-                         className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
+                         className=" absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
                          src={beach.image}
                          alt={beach.title}
                          layout="fill"
@@ -62,7 +62,7 @@ export default async function Shops()  {
                    >
                      <div className="relative w-full" style={{ paddingBottom: "56%" }}>
                        <Image
-                         className="brightness-[0.96] absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
+                         className=" absolute rounded-md  inset-0 w-full h-full object-cover group-hover:brightness-[1.06] group-hover:contrast-[1.03]"
                          src={beach.image}
                          alt={beach.title}
                          layout="fill"
