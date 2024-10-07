@@ -55,7 +55,7 @@ export default function EmblaCarousel() {
         <div className='z-10 absolute w-full  h-full backdrop-filter bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5] rounded-lg brightness-[0.9]'></div>
         <div className="absolute inset-0 flex flex-col justify-start text-white ">
           <p className="z-30 text-xl md:text-3xl text-white font-semibold text-center pt-10  mb-8 z-10 drop-shadow-md tracking-tight">Λίγα λόγια για την Κάρυστο</p>
-          <p className=" z-30 m-4 md:m-10 mt-0 center text-center text-sm md:text-md drop-shadow-md">Η Κάρυστος, μια γραφική πόλη στη νότια Εύβοια, συνδυάζει αρμονικά την φυσική ομορφιά με την μακρά ιστορία.<br></br> Περιτριγυρισμένη από το όρος Όχη και καταγάλανα νερά, προσφέρει μοναδικές παραλίες. Τα αξιοθέατά της γοητεύουν τους λάτρεις της ιστορίας, ενώ η γαστρονομία της περιοχής αναδεικνύει φρέσκα τοπικά προϊόντα. <br></br>Η εύκολη πρόσβαση από την Αθήνα, την καθιστά ιδανικό προορισμό, προσφέροντας μια αυθεντική ελληνική εμπειρία σε ένα μαγευτικό περιβάλλον. </p>
+          <p className=" z-30 m-6 md:m-10 mt-0 center text-center text-xs md:text-md drop-shadow-md">Η Κάρυστος, μια γραφική πόλη στη νότια Εύβοια, συνδυάζει αρμονικά την φυσική ομορφιά με την μακρά ιστορία.<br></br> <br></br>Περιτριγυρισμένη από το όρος Όχη και καταγάλανα νερά, προσφέρει μοναδικές παραλίες. <br></br> Τα αξιοθέατά της γοητεύουν τους λάτρεις της ιστορίας, ενώ η γαστρονομία της περιοχής αναδεικνύει φρέσκα τοπικά προϊόντα.<br></br> <br></br>Η εύκολη πρόσβαση από την Αθήνα, την καθιστά ιδανικό προορισμό, προσφέροντας μια αυθεντική ελληνική εμπειρία σε ένα μαγευτικό περιβάλλον. </p>
         </div>
       </div>
     </div>
