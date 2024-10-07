@@ -41,6 +41,25 @@ export default function EmblaCarousel() {
     </div>
     <Image className="animate-moveDownAnimation  pointer-events-none absolute -mt-10 md:mt-0 top-1/4 left-4 w-3/6 md:top-48 md:left-12 md:w-1/4 z-10" layout="intrinsic" src={textImage1} alt=""/>
     <Image className="animate-moveDownAnimation  pointer-events-none absolute  mt-10 md:mt-0 top-3/4 right-4 w-3/6 md:top-3/4 md:right-12 md:w-1/4" layout="intrinsic" src={textImage2}  alt=""/>
+    
+    <div
+      className="shadow-md md:shadow-xlg p-4 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-0 w-full md:pt-8 overflow-hidden pb-40 md:pb-40 m-4 m-w-20 w-full decoration-green-900 border-radius-4 w-4/5 m-auto"
+    >
+      <div className="relative w-full border border-1 border-white rounded-lg" style={{ paddingBottom: "50vh" }}>
+        <Image
+          className="z-20 absolute rounded-md  inset-0 w-full h-full object-cover opacity-20"
+          src={Image2}
+          alt={Image5}
+          layout="fill"
+        />
+        <div className='z-10 absolute w-full  h-full backdrop-filter bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5] rounded-lg brightness-[0.9]'></div>
+        <div className="absolute inset-0 flex flex-col justify-start text-white ">
+          <p className="z-30 text-xl md:text-3xl text-white font-semibold text-center pt-10  mb-8 z-10 drop-shadow-md tracking-tight">Λίγα λόγια για την Κάρυστο</p>
+          <p className=" z-30 m-4 md:m-10 mt-0 center text-left text-sm md:text-md drop-shadow-md">Η Κάρυστος, μια γραφική πόλη στη νότια Εύβοια, συνδυάζει αρμονικά την φυσική ομορφιά με την μακρά ιστορία.<br></br> Περιτριγυρισμένη από το όρος Όχη και καταγάλανα νερά, προσφέρει μοναδικές παραλίες. Τα ιστορικά Κάστρα, τα Δρακόσπιτα και άλλα αξιοθέατα μαγεύουν τους λάτρεις της ιστορίας και της μυθολογίας, ενώ η γαστρονομία της περιοχής αναδεικνύει φρέσκα τοπικά προϊόντα. <br></br>Με εύκολη πρόσβαση από την Αθήνα, είναι ιδανικός προορισμός για όσους αναζητούν μια αυθεντική ελληνική εμπειρία σε ένα μαγευτικό περιβάλλον. </p>
+        </div>
+      </div>
+    </div>
+    
     </>
   )
 }

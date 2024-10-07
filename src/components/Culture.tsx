@@ -32,6 +32,7 @@ export default async function  Shops()  {
                          alt={beach.title}
                          layout="fill"
                        />
+                       <div className='z-20 absolute w-full  h-full backdrop-filter bg-[#a0b29d] bg-opacity-10 rounded-md'></div>
                        <div className="absolute inset-0 flex flex-col justify-start text-white ">
                          <p className="p-1 text-xs font-semibold text-center mb-[44%] drop-shadow-lg border-b bg-[#3b5961] bg-opacity-55 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[0.6rem] text-center drop-shadow-lg">{beach.smallDescription}</p>
@@ -49,7 +50,7 @@ export default async function  Shops()  {
             </div> 
             <div className="rounded-md  w-full shadow-md md:shadow-xl  items-center p-2 mb-8 bg-white bg-opacity-5">
             <p className="flex items-center text-xl md:text-3xl text-white font-bold mt-4 mb-8 mx-4 md:mx-10 w-full">
-            Αθλητισμός-Δραστηριότητες
+            Αθλητισμός
             <span className="flex-grow h-px bg-white ml-4 mr-20"></span>
             </p>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-y-10 gap-x-0 pb-4'>
@@ -66,6 +67,7 @@ export default async function  Shops()  {
             alt={beach.title}
             layout="fill"
           />
+          <div className='z-20 absolute w-full  h-full backdrop-filter bg-[#a0b29d] bg-opacity-10 rounded-md'></div>
           <div className="absolute inset-0 flex flex-col justify-start text-white ">
             <p className="p-1 text-xs font-semibold text-center mb-[44%] drop-shadow-lg border-b bg-[#3b5961] bg-opacity-55 rounded-md backdrop-blur-[1px]">{beach.title}</p>
             <p className="text-[0.6rem] text-center drop-shadow-lg">{beach.smallDescription}</p>
