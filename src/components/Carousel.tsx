@@ -49,7 +49,7 @@ export default function EmblaCarousel() {
         <Image
           className="z-20 absolute rounded-md  inset-0 w-full h-full object-cover opacity-20"
           src={Image2}
-          alt={Image5}
+          alt=''
           layout="fill"
         />
         <div className='z-10 absolute w-full  h-full backdrop-filter bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5] rounded-lg brightness-[0.9]'></div>
