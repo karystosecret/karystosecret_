@@ -24,8 +24,8 @@ export default function EmblaCarousel() {
         <p className="text-4xl md:text-5xl text-white font-bold text-center mb-8 md:mb-4 drop-shadow-md tracking-tight">Εκδηλώσεις</p>
         <div className='animate-moveDownAnimation flex flex-col md:flex-row rounded-md shadow-md md:shadow-xl md:px-44 bg-white bg-opacity-10 md:p-8'>
         <Image src={birdsImage} width={500} height={500} layout="intrinsic" sizes=""  alt=''className="z-10 hidden md:block drop-shadow-md absolute left-[13%] z-10 md:pt-2 pt-8 opacity-25"/>
-          <p className="md:text-lg z-20 mx-0 mt-4 md:mt-1/3 md:mx-4 md:m-auto  md:w-3/6 m-0 text-gray-200 center text-center text-sm drop-shadow-md">Συναυλίες, εκθέσεις, θεατρικές και χορευτικές παραστάσεις και προβολές, διοργανώνονται στην Κάρυστο, προσφέροντας μια μοναδική εμπειρία.</p>
-          <div className='z-20 embla__viewport md:w-[30%] w-3/4 m-8 mt-4 md:mt-4 md:m-auto shadow-xl mx-auto rounded-md overflow-hidden' ref={emblaRef}>
+          <p className="md:text-lg z-20 mx-0 mt-4 md:mt-1/3 md:mx-4 md:m-auto  md:w-3/6 m-0 text-gray-200 center text-center text-sm drop-shadow-md">Συναυλίες, εκθέσεις, θεατρικές και χορευτικές παραστάσεις και προβολές, διοργανώνονται στην Κάρυστο, προσφέροντας μοναδικές εμπειρίες.</p>
+          <div className='z-20 embla__viewport md:w-[30%] w-3/4 m-8 mt-4 md:mt-4 md:m-auto mx-auto rounded-md overflow-hidden' ref={emblaRef}>
             <div className='embla__container h-full '>
               <div className='embla__slide flex items-center justify-center'>
                 <Image className='' src={Image1} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>

@@ -35,15 +35,14 @@ export default async function Shops()  {
                        />
                        <div className='z-20 absolute w-full  h-full backdrop-filter bg-[#a0b29d] bg-opacity-10 rounded-md'></div>
                        <div className="absolute inset-0 flex flex-col justify-start text-white ">
-                         <p className="p-1 text-xs font-semibold text-center mb-[39%] drop-shadow-lg border-b  bg-[#3b5961] bg-opacity-50 rounded-md backdrop-blur-[1px]">{beach.title}</p>
-                         <p className="text-[0.6rem] text-center drop-shadow-lg">{beach.smallDescription}</p>
+                         <p className="p-1 text-xs font-semibold text-center mb-[42%] drop-shadow-lg border-b  bg-[#3b5961] bg-opacity-50 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[0.6rem] text-center ">{beach.region}</p>
                        </div>
                      </div>
-                     <button className="rounded-md  border border-1 border-white relative mx-auto mt-1 flex items-center justify-center w-full py-1 overflow-hidden text-white transition duration-300 ease-out shadow-md hover:shadow-xl hover:ring-2 hover:ring-[#7ea9b5]">
+                     <button className=" rounded-md  border border-1 border-white relative mx-auto mt-1 flex items-center justify-center w-full py-1 overflow-hidden text-white transition duration-300 ease-out hover:shadow-xl hover:ring-2 hover:ring-[#7ea9b5]">
                        <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-[#a0b29d] via-[#7ea9b5] to-[#a0b29d]"></span>
                        <span className="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-[#a0b29d] opacity-30 group-hover:rotate-90 ease"></span>
-                       <span className="relative text-white text-xs">Μάθε Περισσότερα</span>
+                       <span className="relative text-white text-xs">Άνοιγμα</span>
                      </button>
                    </Link>
                     ))}
@@ -70,15 +69,14 @@ export default async function Shops()  {
                        />
                        <div className='z-20 absolute w-full  h-full backdrop-filter bg-[#a0b29d] bg-opacity-10 rounded-md'></div>
                        <div className="absolute inset-0 flex flex-col justify-start text-white ">
-                         <p className="p-1 text-xs font-semibold text-center mb-[39%] drop-shadow-lg border-b bg-[#3b5961] bg-opacity-50 rounded-md backdrop-blur-[1px]">{beach.title}</p>
-                         <p className="text-[0.6rem] text-center drop-shadow-lg">{beach.smallDescription}</p>
+                         <p className="p-1 text-xs font-semibold text-center mb-[42%] drop-shadow-lg border-b bg-[#3b5961] bg-opacity-50 rounded-md backdrop-blur-[1px]">{beach.title}</p>
                          <p className="text-[0.6rem] text-center ">{beach.region}</p>
                        </div>
                      </div>
-                     <button className="rounded-md  border border-1 border-white relative mx-auto mt-1 flex items-center justify-center w-full py-1 overflow-hidden text-white transition duration-300 ease-out shadow-md hover:shadow-xl hover:ring-2 hover:ring-[#7ea9b5]">
+                     <button className="rounded-md  border border-1 border-white relative mx-auto mt-1 flex items-center justify-center w-full py-1 overflow-hidden text-white transition duration-300 ease-out hover:shadow-xl hover:ring-2 hover:ring-[#7ea9b5]">
                        <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-[#a0b29d] via-[#7ea9b5] to-[#a0b29d]"></span>
                        <span className="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-[#a0b29d] opacity-30 group-hover:rotate-90 ease"></span>
-                       <span className="relative text-white text-xs">Μάθε Περισσότερα</span>
+                       <span className="relative text-white text-xs">Άνοιγμα</span>
                      </button>
                    </Link>
                     ))}

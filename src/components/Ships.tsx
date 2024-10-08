@@ -106,7 +106,7 @@ const Shops = () =>  {
             </div>
         </div>
         <div className="mt-16 bg-white bg-opacity-10 rounded-md shadow-md md:shadow-xl p-2">
-                <h2 className="text-lg font-semibold text-white text-center mb-0">Τρέχων Καιρός στην Κάρυστο</h2>
+                <h2 className="text-lg font-semibold text-white text-center mb-0">Ο Καιρός στην Κάρυστο</h2>
                 {loading ? (
                     <p className="text-white text-center">Φόρτωση δεδομένων καιρού...</p>
                 ) : error ? (
