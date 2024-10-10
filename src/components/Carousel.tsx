@@ -39,8 +39,8 @@ export default function EmblaCarousel() {
         </div>
       </div>
     </div>
-    <Image className="animate-moveDownAnimation  pointer-events-none absolute -mt-10 md:mt-0 top-1/4 left-4 w-3/6 md:top-48 md:left-12 md:w-1/4 z-10" layout="intrinsic" src={textImage1} alt=""/>
-    <Image className="animate-moveDownAnimation  pointer-events-none absolute  mt-10 md:mt-0 top-3/4 right-4 w-3/6 md:top-3/4 md:right-12 md:w-1/4" layout="intrinsic" src={textImage2}  alt=""/>
+    <Image className="animate-moveDownAnimation  pointer-events-none absolute -mt-10 md:mt-0 top-1/4 left-4 w-4/6 md:top-48 md:left-12 md:w-1/4 z-10" layout="intrinsic" src={textImage1} alt=""/>
+    <Image className="animate-moveDownAnimation  pointer-events-none absolute  mt-10 md:mt-0 top-3/4 right-4 w-4/6 md:top-3/4 md:right-12 md:w-1/4" layout="intrinsic" src={textImage2}  alt=""/>
     
     <div
       className="shadow-md md:shadow-xlg p-4 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-0 w-full md:pt-8 overflow-hidden pb-40 md:pb-40 m-4 m-w-20 w-full decoration-green-900 border-radius-4 w-4/5 m-auto"
