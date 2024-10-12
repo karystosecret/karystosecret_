@@ -8,7 +8,7 @@ import { TfiAlignJustify } from "react-icons/tfi";
 
 const Header = () =>  {
     return (
-        <div className="bg-gradient-to-r from-[#e2e8e2] to-[#d8e5e9]  z-20 h-100 w-full border-b-0 shadow-inner items-center px-4">
+        <div className="bg-gradient-to-r from-[#e2e8e2] to-[#d8e5e9] bg-brightness-90 z-20 h-100 w-full border-b-0 shadow-inner items-center px-4">
             <Link className="pointer-events-none w-fit m-auto" href={"/"}>
                 <Image className="m-auto p-12 pointer-events-none" layout="intrinsic" src={logoImage} width={300} height={150} alt=""/>
             </Link>
