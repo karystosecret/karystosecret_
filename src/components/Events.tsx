@@ -1,9 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import ImageGalaxy from '/public/Events/fil.png'
-import ImageKrasia from '/public/Events/krasia.jpg'
-import ImageXovoli from '/public/Events/xovoli29.jpg'
 import birdsImage from '/public/icons/birds.png'
 
 import React, { useCallback } from 'react'
@@ -30,15 +27,15 @@ export default function EmblaCarousel() {
           <div className='z-20 embla__viewport md:w-[30%] w-3/4 m-8 mt-4 md:mt-4 md:m-auto mx-auto rounded-md overflow-hidden' ref={emblaRef}>
             <div className='embla__container h-full '>
               <div className='embla__slide flex items-center justify-center'>
-                <Image className='' src={ImageGalaxy} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
+                <Image className='' src='/Events/fil.JPG' width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
                 <div className='z-20 absolute w-full  h-full backdrop-filter bg-[#a0b29d] bg-opacity-10 rounded-md'></div>
               </div>
               <div className='embla__slide flex items-center justify-center'>
-                <Image className='' src={ImageKrasia} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
+                <Image className='' src='/Events/krasiou.JPG' width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
                 <div className='z-20 absolute w-full  h-full backdrop-filter bg-[#a0b29d] bg-opacity-10 rounded-md'></div>
               </div>
               <div className='embla__slide flex items-center justify-center'>
-                <Image className='' src={ImageXovoli} width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
+                <Image className='' src='/Events/xovoli29.JPG' width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} alt=""></Image>
                 <div className='z-20 absolute w-full  h-full backdrop-filter bg-[#a0b29d] bg-opacity-10 rounded-md'></div>
               </div>
             </div>
