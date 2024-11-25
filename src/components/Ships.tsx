@@ -75,7 +75,7 @@ const Shops = () =>  {
                 <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 rounded-br-md text-center" >08:00, 16:30</p>
             </div>
         </div>
-        <p className="text-[8px] md:text-sm font-semibold text-white text-center mt-4">Για Κρατήσεις Πρακτορείο SET ΛΑΓΏΝΙΚΟΥ Πλατεία Αμαλίας 7, ΚΆΡΥΣΤΟΣ Τηλ: 2224026200 & 2224029010 - Μαρμάρι, Κιόσκι-Λιμάνι Τηλ: 2224032340</p>
+        <p className="text-[8px] md:text-sm font-semibold text-white text-center mt-4">Για Κρατήσεις Πρακτορείο SET «ΛΑΓΏΝΙΚΟΥ» Πλατεία Αμαλίας 7, ΚΆΡΥΣΤΟΣ Τηλ: 2224026200 & 2224029010 - Μαρμάρι, Κιόσκι-Λιμάνι Τηλ: 2224032340</p>
         {/*<p className="text-lg font-semibold text-white text-center mt-10">Αγία Μαρίνα - Νέα Στύρα</p>
         <div className="grid w-full shadow-xl items-center mt-2 md:mt-4">
             <div className="grid grid-cols-8 grid rows-3">
