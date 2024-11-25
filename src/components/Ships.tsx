@@ -44,6 +44,7 @@ const Shops = () =>  {
         <div id="Ships" className="animate-fadeInAnimation p-4 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-0 w-full md:pt-8 overflow-hidden pb-40 md:pb-40">
         <p className="text-4xl md:text-5xl text-white font-bold text-center  mb-12 z-10 drop-shadow-md tracking-tight">Δρομολόγια Πλοίων</p>
         <p className="text-lg font-semibold text-white text-center mt-0">Ραφήνα - Μαρμάρι</p>
+        <p className="text-sm font-semibold text-white text-center mt-4">22/11/24 - 30/11/24</p>
         <div className="grid w-full shadow-xl rounded-md items-center z-10 mt-2 md:mt-4">
             <div className="grid grid-cols-8 grid rows-3 z-10">
                 <div className="w-full md:w-40"></div>
@@ -74,6 +75,7 @@ const Shops = () =>  {
                 <p className="text-[8px] md:text-xs outline outline-1 md:outline-2 outline-white p-2 rounded-br-md text-center" >08:00, 16:30</p>
             </div>
         </div>
+        <p className="text-sm font-semibold text-white text-center mt-4">Τηλ: 2224026200 & 2224029010</p>
         {/*<p className="text-lg font-semibold text-white text-center mt-10">Αγία Μαρίνα - Νέα Στύρα</p>
         <div className="grid w-full shadow-xl items-center mt-2 md:mt-4">
             <div className="grid grid-cols-8 grid rows-3">
