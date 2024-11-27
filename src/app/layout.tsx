@@ -13,8 +13,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "karystoSecret",
-  description: "Explore, Enjoy and Feel the Secrets of Karystos.",
+  title: "KarystoSecret",
+  description: "Δρομολόγια Μαρμάρι-Ραφήνα, Καιρός, Τοποθεσίες, Εκδηλώσεις στην Κάρυστο.",
 };
 
 export default function RootLayout({
