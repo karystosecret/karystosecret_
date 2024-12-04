@@ -44,7 +44,7 @@ const Shops = () =>  {
         <div id="Ships" className="animate-fadeInAnimation p-4 md:p-20 bg-gradient-to-r from-[#a0b29d] to-[#7ea9b5]  z-0 w-full md:pt-8 overflow-hidden pb-40 md:pb-40">
         <p className="text-4xl md:text-5xl text-white font-bold text-center  mb-12 z-10 drop-shadow-md tracking-tight">Δρομολόγια Πλοίων</p>
         <p className="text-xl font-semibold text-white text-center mt-0">Ραφήνα - Μαρμάρι</p>
-        <p className="text-sm font-semibold text-white text-center mt-6">22/11/24 - 30/11/24</p>
+        <p className="text-sm font-semibold text-white text-center mt-6">03/12/24 - 15/12/24</p>
         <div className="grid w-full shadow-xl rounded-md items-center z-10 mt-2">
             <div className="grid grid-cols-8 grid rows-3 z-10">
                 <div className="w-full md:w-40"></div>
